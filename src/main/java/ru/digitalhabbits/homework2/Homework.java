@@ -10,7 +10,6 @@ public class Homework {
         new FileProcessor()
                 .process(processingFileName, resultFileName);
     }
-
     @Nonnull
     private static String getProcessingFileName(String[] args) {
         return getFileName(args, 0, "Enter processing file: ");
